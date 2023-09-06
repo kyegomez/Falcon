@@ -163,14 +163,7 @@ Where:
   
 - If memory issues arise, consider reducing the `max_new_tokens` parameter or using quantized models.
 
-### References:
-
-- [Transformers Documentation](https://huggingface.co/transformers/)
-  
-- Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., ... & Polosukhin, I. (2017). Attention is all you need. Advances in neural information processing systems, 30.
-
-**Note**: This documentation is intended for educational purposes and might not cover all edge cases or specific nuances of the Falcon class and its underlying models. Always refer to the official documentation and research papers for comprehensive information.
-
+---
 
 # License
 MIT
