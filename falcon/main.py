@@ -7,7 +7,7 @@ class Falcon:
     def __init__(
         self,
         *,
-        model_id: str = None,
+        model_id: str = "tiiuae/falcon-180B",
         temperature: float = None,
         top_p: float = None,
         max_new_tokens: int = None,
