@@ -8,9 +8,9 @@ class Falcon:
         self,
         *,
         model_id: str = "tiiuae/falcon-180B",
-        temperature: float = None,
-        top_p: float = None,
-        max_new_tokens: int = None,
+        temperature: float = 0.5,
+        top_p: float = 0.9,
+        max_new_tokens: int = 400,
         quantized: bool = False,
         system_prompt: str = None
     ):
