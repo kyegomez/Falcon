@@ -15,7 +15,7 @@ pip3 install simple-falcon
 
 # Usage
 
-```
+```python
 from falcon.main import Falcon
 
 
