@@ -112,7 +112,7 @@ Generates a response considering the conversation history.
 #### 1. Single-turn conversation:
 
 ```python
-from simple_falcon import Falcon
+from falcon import Falcon
 import torch
 
 model = Falcon(temperature=0.8)
@@ -122,7 +122,7 @@ model.run("What is the capital of France?")
 #### 2. Multi-turn conversation with history:
 
 ```python
-from simple_falcon import Falcon
+from falcon import Falcon
 import torch
 
 model = Falcon(system_prompt="Conversational Assistant")
@@ -136,7 +136,7 @@ model.chat("Tell me a joke.", history)
 #### 3. Using quantized models:
 
 ```python
-from simple_falcon import Falcon
+from falcon import Falcon
 import torch
 
 model = Falcon(quantized=True)
