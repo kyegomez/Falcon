@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "simple-falcon"
-version = "0.0.2"
+version = "0.0.4"
 description = "Falcon - Pytorch"
 license = "MIT"
 authors = ["Kye Gomez <kye@apac.ai>"]
@@ -27,6 +27,8 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.6"
+transformers = "*"
+torch = "*"
 
 
 [tool.poetry.dev-dependencies]
